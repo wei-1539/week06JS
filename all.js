@@ -178,6 +178,7 @@ add.addEventListener("click", () => {
     ) {
         errorCheck();
     } else {
+        errorCheck();
         let obj = {}
         // "id": 0,
         obj.id = data.length;

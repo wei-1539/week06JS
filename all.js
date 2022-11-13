@@ -17,6 +17,10 @@ axios.get('https://raw.githubusercontent.com/hexschool/js-training/main/travelAp
         console.log(data)
         renderData()
     })
+    .catch(function (error) {
+        // handle error
+        console.log(error);
+    })
 
 // 印出套票
 const ticketCard = document.querySelector(".ticketCard-area");
